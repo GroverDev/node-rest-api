@@ -12,7 +12,31 @@ La siguiente tabla muestra una descripción general de los endpoint de las API R
 - GET     `api/usuarios/promedio-edad`   Devuelve el promedio de edad de los usuarios
 - GET     `api/estado`                   Devuelve el estado de la aplicación
 
-### Pruebas 
+### Api rest publicado en Render
+
+- GET     [GetAllUsers](https://apirest-tj31.onrender.com/api/usuarios)                Obtiene todos los usuarios
+   - `https://apirest-tj31.onrender.com/api/usuarios`
+
+
+- GET     [GetUserById](https://apirest-tj31.onrender.com/api/usuarios/2)              Obtiene un usuario por su id
+  - `https://apirest-tj31.onrender.com/api/usuarios/2`
+
+- POST    [CreateUser](https://apirest-tj31.onrender.com/api/usuarios)                 Adiciona o crea un usuario
+  - `https://apirest-tj31.onrender.com/api/usuarios`
+
+- PUT     [UpdateUser](https://apirest-tj31.onrender.com/api/usuarios/4)               Actualiza un usuario por su id
+  - `https://apirest-tj31.onrender.com/api/usuarios/4`
+
+- DELETE  [DeleteUser](https://apirest-tj31.onrender.com/api/usuarios/4)               Borra un usuario por su id
+  - `https://apirest-tj31.onrender.com/api/usuarios/4`
+
+- GET     [AverageAge](https://apirest-tj31.onrender.com/api/usuarios/promedio-edad)   Devuelve el promedio de edad de los usuarios
+  - `https://apirest-tj31.onrender.com/api/usuarios/promedio-edad`
+  
+- GET     [AppState](https://apirest-tj31.onrender.com/api/estado)                     Devuelve el estado de la aplicación
+  - `https://apirest-tj31.onrender.com/api/estado`
+ 
+### Pruebas locales
 Para ejecutar el servicio Rest Api ejecute el siguiente comando: 
 ```
 node server.js
